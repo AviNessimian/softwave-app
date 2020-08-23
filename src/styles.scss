@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./themes/darkly/variables";
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-v4-rtl/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-v4-rtl/scss/bootstrap-rtl.scss";
+
+@import "./themes/darkly/bootswatch";
+@import "~animate.css/animate.min";
+
+main {
+  margin-top: 50px;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translateX(-50%) translateY(-50%);
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px $gray-900;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: $gray-700;
+  -webkit-box-shadow: inset 0 0 6px $black;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: $gray-700;
+}
+

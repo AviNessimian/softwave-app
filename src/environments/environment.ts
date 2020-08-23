@@ -3,9 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  title: "Sotwave",
+  tenant: "XXXXTenant",
+  clientId: "XXXXXXXXXXXXX",
+  redirectUri: "http://localhost:4200/",
+  webApi: "https://localhost:44324/api/aggregate"
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
